@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@zegocloud/zego-uikit-prebuilt": "^2.6.1",
+    "react-router": "^6.25.1",
+    "react-router-dom": "^6.25.1"
+  }
+}
