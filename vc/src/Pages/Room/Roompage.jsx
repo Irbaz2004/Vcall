@@ -17,7 +17,7 @@ export default function Roompage() {
         sharedLinks: [
           {
             name: 'Copy Link',
-            url: `${window.location.origin}/room/${roomId}`,
+            url: roomId,
           }
         ],
         scenario: {
