@@ -1,0 +1,65 @@
+.roompage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+  }
+  
+  .meeting-container {
+    flex: 1;
+    margin: 1rem;
+    background-color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ccc;
+  }
+  
+  .participants, .chat {
+    margin-bottom: 1rem;
+  }
+  
+  .participants ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .participants li {
+    padding: 0.5rem 0;
+  }
+  
+  .chat .messages {
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
+  .chat .message {
+    margin-bottom: 0.5rem;
+  }
+  
+  .chat input {
+    width: calc(100% - 70px);
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .chat button {
+    padding: 0.5rem 1rem;
+  }
+  
+
+  

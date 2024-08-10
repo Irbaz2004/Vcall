@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
-
 export default function Roompage() {
   const { roomId } = useParams();
   const meetingRef = useRef(null);
